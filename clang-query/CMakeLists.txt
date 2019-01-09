@@ -14,6 +14,7 @@ add_clang_library(clangQuery
   clangDynamicASTMatchers
   clangFrontend
   clangSerialization
+  clangStaticAnalyzerCore
   )
 
 add_subdirectory(tool)
